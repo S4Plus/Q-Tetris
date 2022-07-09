@@ -1,0 +1,438 @@
+# This file has been generated using RevKit 1.3-snapshot (www.revkit.org)
+.version 2.0
+.numvars 36
+.variables x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35
+.inputs a.0 b.0 x.0 x.1 x.2 x.3 x.4 x.5 x.6 x.7 x.8 x.9 x.10 x.11 x.12 x.13 x.14 x.15 y.0 y.1 y.2 y.3 y.4 y.5 y.6 y.7 y.8 y.9 y.10 y.11 y.12 y.13 y.14 y.15 const_0 const_0
+.outputs  a.0 b.0 x.0 x.1 x.2 x.3 x.4 x.5 x.6 x.7 x.8 x.9 x.10 x.11 x.12 x.13 x.14 x.15 y.0 y.1 y.2 y.3 y.4 y.5 y.6 y.7 y.8 y.9 y.10 y.11 y.12 y.13 y.14 y.15 const_0 const_0
+.constants ----------------------------------00
+.garbage 11--------------------------------11
+.begin
+t2 x0 x34
+t3 x1 x34 x35
+t4 x19 x34 x35 x3
+t4 x20 x34 x35 x4
+t4 x21 x34 x35 x5
+t4 x22 x34 x35 x6
+t4 x23 x34 x35 x7
+t4 x24 x34 x35 x8
+t4 x25 x34 x35 x9
+t4 x26 x34 x35 x10
+t4 x27 x34 x35 x11
+t4 x28 x34 x35 x12
+t4 x29 x34 x35 x13
+t4 x30 x34 x35 x14
+t4 x31 x34 x35 x15
+t4 x32 x34 x35 x16
+t4 x33 x34 x35 x17
+t4 x32 x34 x35 x33
+t4 x31 x34 x35 x32
+t4 x30 x34 x35 x31
+t4 x29 x34 x35 x30
+t4 x28 x34 x35 x29
+t4 x27 x34 x35 x28
+t4 x26 x34 x35 x27
+t4 x25 x34 x35 x26
+t4 x24 x34 x35 x25
+t4 x23 x34 x35 x24
+t4 x22 x34 x35 x23
+t4 x21 x34 x35 x22
+t4 x20 x34 x35 x21
+t4 x19 x34 x35 x20
+t5 x2 x18 x34 x35 x19
+t5 x3 x19 x34 x35 x20
+t5 x4 x20 x34 x35 x21
+t5 x5 x21 x34 x35 x22
+t5 x6 x22 x34 x35 x23
+t5 x7 x23 x34 x35 x24
+t5 x8 x24 x34 x35 x25
+t5 x9 x25 x34 x35 x26
+t5 x10 x26 x34 x35 x27
+t5 x11 x27 x34 x35 x28
+t5 x12 x28 x34 x35 x29
+t5 x13 x29 x34 x35 x30
+t5 x14 x30 x34 x35 x31
+t5 x15 x31 x34 x35 x32
+t5 x16 x32 x34 x35 x33
+t4 x33 x34 x35 x17
+t5 x16 x32 x34 x35 x33
+t4 x32 x34 x35 x16
+t5 x15 x31 x34 x35 x32
+t4 x31 x34 x35 x15
+t5 x14 x30 x34 x35 x31
+t4 x30 x34 x35 x14
+t5 x13 x29 x34 x35 x30
+t4 x29 x34 x35 x13
+t5 x12 x28 x34 x35 x29
+t4 x28 x34 x35 x12
+t5 x11 x27 x34 x35 x28
+t4 x27 x34 x35 x11
+t5 x10 x26 x34 x35 x27
+t4 x26 x34 x35 x10
+t5 x9 x25 x34 x35 x26
+t4 x25 x34 x35 x9
+t5 x8 x24 x34 x35 x25
+t4 x24 x34 x35 x8
+t5 x7 x23 x34 x35 x24
+t4 x23 x34 x35 x7
+t5 x6 x22 x34 x35 x23
+t4 x22 x34 x35 x6
+t5 x5 x21 x34 x35 x22
+t4 x21 x34 x35 x5
+t5 x4 x20 x34 x35 x21
+t4 x20 x34 x35 x4
+t5 x3 x19 x34 x35 x20
+t4 x19 x34 x35 x3
+t5 x2 x18 x34 x35 x19
+t4 x19 x34 x35 x20
+t4 x20 x34 x35 x21
+t4 x21 x34 x35 x22
+t4 x22 x34 x35 x23
+t4 x23 x34 x35 x24
+t4 x24 x34 x35 x25
+t4 x25 x34 x35 x26
+t4 x26 x34 x35 x27
+t4 x27 x34 x35 x28
+t4 x28 x34 x35 x29
+t4 x29 x34 x35 x30
+t4 x30 x34 x35 x31
+t4 x31 x34 x35 x32
+t4 x32 x34 x35 x33
+t4 x18 x34 x35 x2
+t4 x19 x34 x35 x3
+t4 x20 x34 x35 x4
+t4 x21 x34 x35 x5
+t4 x22 x34 x35 x6
+t4 x23 x34 x35 x7
+t4 x24 x34 x35 x8
+t4 x25 x34 x35 x9
+t4 x26 x34 x35 x10
+t4 x27 x34 x35 x11
+t4 x28 x34 x35 x12
+t4 x29 x34 x35 x13
+t4 x30 x34 x35 x14
+t4 x31 x34 x35 x15
+t4 x32 x34 x35 x16
+t4 x33 x34 x35 x17
+t2 x34 x35
+t4 x3 x34 x35 x19
+t4 x4 x34 x35 x20
+t4 x5 x34 x35 x21
+t4 x6 x34 x35 x22
+t4 x7 x34 x35 x23
+t4 x8 x34 x35 x24
+t4 x9 x34 x35 x25
+t4 x10 x34 x35 x26
+t4 x11 x34 x35 x27
+t4 x12 x34 x35 x28
+t4 x13 x34 x35 x29
+t4 x14 x34 x35 x30
+t4 x15 x34 x35 x31
+t4 x16 x34 x35 x32
+t4 x17 x34 x35 x33
+t4 x16 x34 x35 x17
+t4 x15 x34 x35 x16
+t4 x14 x34 x35 x15
+t4 x13 x34 x35 x14
+t4 x12 x34 x35 x13
+t4 x11 x34 x35 x12
+t4 x10 x34 x35 x11
+t4 x9 x34 x35 x10
+t4 x8 x34 x35 x9
+t4 x7 x34 x35 x8
+t4 x6 x34 x35 x7
+t4 x5 x34 x35 x6
+t4 x4 x34 x35 x5
+t4 x3 x34 x35 x4
+t5 x2 x18 x34 x35 x3
+t5 x3 x19 x34 x35 x4
+t5 x4 x20 x34 x35 x5
+t5 x5 x21 x34 x35 x6
+t5 x6 x22 x34 x35 x7
+t5 x7 x23 x34 x35 x8
+t5 x8 x24 x34 x35 x9
+t5 x9 x25 x34 x35 x10
+t5 x10 x26 x34 x35 x11
+t5 x11 x27 x34 x35 x12
+t5 x12 x28 x34 x35 x13
+t5 x13 x29 x34 x35 x14
+t5 x14 x30 x34 x35 x15
+t5 x15 x31 x34 x35 x16
+t5 x16 x32 x34 x35 x17
+t4 x17 x34 x35 x33
+t5 x16 x32 x34 x35 x17
+t4 x16 x34 x35 x32
+t5 x15 x31 x34 x35 x16
+t4 x15 x34 x35 x31
+t5 x14 x30 x34 x35 x15
+t4 x14 x34 x35 x30
+t5 x13 x29 x34 x35 x14
+t4 x13 x34 x35 x29
+t5 x12 x28 x34 x35 x13
+t4 x12 x34 x35 x28
+t5 x11 x27 x34 x35 x12
+t4 x11 x34 x35 x27
+t5 x10 x26 x34 x35 x11
+t4 x10 x34 x35 x26
+t5 x9 x25 x34 x35 x10
+t4 x9 x34 x35 x25
+t5 x8 x24 x34 x35 x9
+t4 x8 x34 x35 x24
+t5 x7 x23 x34 x35 x8
+t4 x7 x34 x35 x23
+t5 x6 x22 x34 x35 x7
+t4 x6 x34 x35 x22
+t5 x5 x21 x34 x35 x6
+t4 x5 x34 x35 x21
+t5 x4 x20 x34 x35 x5
+t4 x4 x34 x35 x20
+t5 x3 x19 x34 x35 x4
+t4 x3 x34 x35 x19
+t5 x2 x18 x34 x35 x3
+t4 x3 x34 x35 x4
+t4 x4 x34 x35 x5
+t4 x5 x34 x35 x6
+t4 x6 x34 x35 x7
+t4 x7 x34 x35 x8
+t4 x8 x34 x35 x9
+t4 x9 x34 x35 x10
+t4 x10 x34 x35 x11
+t4 x11 x34 x35 x12
+t4 x12 x34 x35 x13
+t4 x13 x34 x35 x14
+t4 x14 x34 x35 x15
+t4 x15 x34 x35 x16
+t4 x16 x34 x35 x17
+t4 x2 x34 x35 x18
+t4 x3 x34 x35 x19
+t4 x4 x34 x35 x20
+t4 x5 x34 x35 x21
+t4 x6 x34 x35 x22
+t4 x7 x34 x35 x23
+t4 x8 x34 x35 x24
+t4 x9 x34 x35 x25
+t4 x10 x34 x35 x26
+t4 x11 x34 x35 x27
+t4 x12 x34 x35 x28
+t4 x13 x34 x35 x29
+t4 x14 x34 x35 x30
+t4 x15 x34 x35 x31
+t4 x16 x34 x35 x32
+t4 x17 x34 x35 x33
+t2 x34 x35
+t3 x1 x34 x35
+t1 x34
+t3 x1 x34 x35
+t4 x33 x34 x35 x17
+t4 x32 x34 x35 x16
+t4 x31 x34 x35 x15
+t4 x30 x34 x35 x14
+t4 x29 x34 x35 x13
+t4 x28 x34 x35 x12
+t4 x27 x34 x35 x11
+t4 x26 x34 x35 x10
+t4 x25 x34 x35 x9
+t4 x24 x34 x35 x8
+t4 x23 x34 x35 x7
+t4 x22 x34 x35 x6
+t4 x21 x34 x35 x5
+t4 x20 x34 x35 x4
+t4 x19 x34 x35 x3
+t4 x18 x34 x35 x2
+t4 x32 x34 x35 x33
+t4 x31 x34 x35 x32
+t4 x30 x34 x35 x31
+t4 x29 x34 x35 x30
+t4 x28 x34 x35 x29
+t4 x27 x34 x35 x28
+t4 x26 x34 x35 x27
+t4 x25 x34 x35 x26
+t4 x24 x34 x35 x25
+t4 x23 x34 x35 x24
+t4 x22 x34 x35 x23
+t4 x21 x34 x35 x22
+t4 x20 x34 x35 x21
+t4 x19 x34 x35 x20
+t5 x2 x18 x34 x35 x19
+t4 x19 x34 x35 x3
+t5 x3 x19 x34 x35 x20
+t4 x20 x34 x35 x4
+t5 x4 x20 x34 x35 x21
+t4 x21 x34 x35 x5
+t5 x5 x21 x34 x35 x22
+t4 x22 x34 x35 x6
+t5 x6 x22 x34 x35 x23
+t4 x23 x34 x35 x7
+t5 x7 x23 x34 x35 x24
+t4 x24 x34 x35 x8
+t5 x8 x24 x34 x35 x25
+t4 x25 x34 x35 x9
+t5 x9 x25 x34 x35 x26
+t4 x26 x34 x35 x10
+t5 x10 x26 x34 x35 x27
+t4 x27 x34 x35 x11
+t5 x11 x27 x34 x35 x28
+t4 x28 x34 x35 x12
+t5 x12 x28 x34 x35 x29
+t4 x29 x34 x35 x13
+t5 x13 x29 x34 x35 x30
+t4 x30 x34 x35 x14
+t5 x14 x30 x34 x35 x31
+t4 x31 x34 x35 x15
+t5 x15 x31 x34 x35 x32
+t4 x32 x34 x35 x16
+t5 x16 x32 x34 x35 x33
+t4 x33 x34 x35 x17
+t5 x16 x32 x34 x35 x33
+t5 x15 x31 x34 x35 x32
+t5 x14 x30 x34 x35 x31
+t5 x13 x29 x34 x35 x30
+t5 x12 x28 x34 x35 x29
+t5 x11 x27 x34 x35 x28
+t5 x10 x26 x34 x35 x27
+t5 x9 x25 x34 x35 x26
+t5 x8 x24 x34 x35 x25
+t5 x7 x23 x34 x35 x24
+t5 x6 x22 x34 x35 x23
+t5 x5 x21 x34 x35 x22
+t5 x4 x20 x34 x35 x21
+t5 x3 x19 x34 x35 x20
+t5 x2 x18 x34 x35 x19
+t4 x19 x34 x35 x20
+t4 x20 x34 x35 x21
+t4 x21 x34 x35 x22
+t4 x22 x34 x35 x23
+t4 x23 x34 x35 x24
+t4 x24 x34 x35 x25
+t4 x25 x34 x35 x26
+t4 x26 x34 x35 x27
+t4 x27 x34 x35 x28
+t4 x28 x34 x35 x29
+t4 x29 x34 x35 x30
+t4 x30 x34 x35 x31
+t4 x31 x34 x35 x32
+t4 x32 x34 x35 x33
+t4 x33 x34 x35 x17
+t4 x32 x34 x35 x16
+t4 x31 x34 x35 x15
+t4 x30 x34 x35 x14
+t4 x29 x34 x35 x13
+t4 x28 x34 x35 x12
+t4 x27 x34 x35 x11
+t4 x26 x34 x35 x10
+t4 x25 x34 x35 x9
+t4 x24 x34 x35 x8
+t4 x23 x34 x35 x7
+t4 x22 x34 x35 x6
+t4 x21 x34 x35 x5
+t4 x20 x34 x35 x4
+t4 x19 x34 x35 x3
+t2 x34 x35
+t4 x17 x34 x35 x33
+t4 x16 x34 x35 x32
+t4 x15 x34 x35 x31
+t4 x14 x34 x35 x30
+t4 x13 x34 x35 x29
+t4 x12 x34 x35 x28
+t4 x11 x34 x35 x27
+t4 x10 x34 x35 x26
+t4 x9 x34 x35 x25
+t4 x8 x34 x35 x24
+t4 x7 x34 x35 x23
+t4 x6 x34 x35 x22
+t4 x5 x34 x35 x21
+t4 x4 x34 x35 x20
+t4 x3 x34 x35 x19
+t4 x2 x34 x35 x18
+t4 x16 x34 x35 x17
+t4 x15 x34 x35 x16
+t4 x14 x34 x35 x15
+t4 x13 x34 x35 x14
+t4 x12 x34 x35 x13
+t4 x11 x34 x35 x12
+t4 x10 x34 x35 x11
+t4 x9 x34 x35 x10
+t4 x8 x34 x35 x9
+t4 x7 x34 x35 x8
+t4 x6 x34 x35 x7
+t4 x5 x34 x35 x6
+t4 x4 x34 x35 x5
+t4 x3 x34 x35 x4
+t5 x2 x18 x34 x35 x3
+t4 x3 x34 x35 x19
+t5 x3 x19 x34 x35 x4
+t4 x4 x34 x35 x20
+t5 x4 x20 x34 x35 x5
+t4 x5 x34 x35 x21
+t5 x5 x21 x34 x35 x6
+t4 x6 x34 x35 x22
+t5 x6 x22 x34 x35 x7
+t4 x7 x34 x35 x23
+t5 x7 x23 x34 x35 x8
+t4 x8 x34 x35 x24
+t5 x8 x24 x34 x35 x9
+t4 x9 x34 x35 x25
+t5 x9 x25 x34 x35 x10
+t4 x10 x34 x35 x26
+t5 x10 x26 x34 x35 x11
+t4 x11 x34 x35 x27
+t5 x11 x27 x34 x35 x12
+t4 x12 x34 x35 x28
+t5 x12 x28 x34 x35 x13
+t4 x13 x34 x35 x29
+t5 x13 x29 x34 x35 x14
+t4 x14 x34 x35 x30
+t5 x14 x30 x34 x35 x15
+t4 x15 x34 x35 x31
+t5 x15 x31 x34 x35 x16
+t4 x16 x34 x35 x32
+t5 x16 x32 x34 x35 x17
+t4 x17 x34 x35 x33
+t5 x16 x32 x34 x35 x17
+t5 x15 x31 x34 x35 x16
+t5 x14 x30 x34 x35 x15
+t5 x13 x29 x34 x35 x14
+t5 x12 x28 x34 x35 x13
+t5 x11 x27 x34 x35 x12
+t5 x10 x26 x34 x35 x11
+t5 x9 x25 x34 x35 x10
+t5 x8 x24 x34 x35 x9
+t5 x7 x23 x34 x35 x8
+t5 x6 x22 x34 x35 x7
+t5 x5 x21 x34 x35 x6
+t5 x4 x20 x34 x35 x5
+t5 x3 x19 x34 x35 x4
+t5 x2 x18 x34 x35 x3
+t4 x3 x34 x35 x4
+t4 x4 x34 x35 x5
+t4 x5 x34 x35 x6
+t4 x6 x34 x35 x7
+t4 x7 x34 x35 x8
+t4 x8 x34 x35 x9
+t4 x9 x34 x35 x10
+t4 x10 x34 x35 x11
+t4 x11 x34 x35 x12
+t4 x12 x34 x35 x13
+t4 x13 x34 x35 x14
+t4 x14 x34 x35 x15
+t4 x15 x34 x35 x16
+t4 x16 x34 x35 x17
+t4 x17 x34 x35 x33
+t4 x16 x34 x35 x32
+t4 x15 x34 x35 x31
+t4 x14 x34 x35 x30
+t4 x13 x34 x35 x29
+t4 x12 x34 x35 x28
+t4 x11 x34 x35 x27
+t4 x10 x34 x35 x26
+t4 x9 x34 x35 x25
+t4 x8 x34 x35 x24
+t4 x7 x34 x35 x23
+t4 x6 x34 x35 x22
+t4 x5 x34 x35 x21
+t4 x4 x34 x35 x20
+t4 x3 x34 x35 x19
+t2 x34 x35
+t3 x1 x34 x35
+t1 x34
+t2 x0 x34
+.end
