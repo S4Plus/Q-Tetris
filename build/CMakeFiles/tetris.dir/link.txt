@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tetris.dir/exe/main.cpp.o -o tetris  lib/libLIB.a -lpthread 

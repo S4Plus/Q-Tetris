@@ -7,6 +7,8 @@
 #include <exception>
 #include <map>
 #include "basis.h"
+#include <vector>
+using namespace std;
 
 // OpenQASM Parser
 // `module` and `include` is not supported
@@ -42,7 +44,7 @@ public:
      * return pointer to the same object if the types are equal,
      * that is, the QASMParser would have only one copy of the intruction-type string
      */
-    const char *getInstruction(int &q1, int &q2, int &q3);
+    const char *getInstruction(vector<int>& q);
 
     inline const char *getCurrentLine() const {
         return line;

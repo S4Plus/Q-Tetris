@@ -123,12 +123,6 @@ int QASMParser::getQubitCount() {
         if(qreg_s == "creg")
             continue;
         if(qreg_s == "gate") {
-            while(qreg_s != "}") {
-                if(!readline())
-                    throw ParserException("except '}'");
-                std::istringstream line_stream2(line);
-                line_stream2 >> qreg_s;
-            }
             continue;
         }
         if(qreg_s == "qreg") {
@@ -154,8 +148,9 @@ void QASMParser::addQreg(string &name, int size) {
     qcount += size;        
 }
 
-const char *QASMParser::getInstruction(int &q1, int &q2, int &q3) {
+const char *QASMParser::getInstruction(vector<int>& q) {
     while(true) {
+
         if(!readline())
             return nullptr;
         std::istringstream line_stream(line);
@@ -172,29 +167,19 @@ const char *QASMParser::getInstruction(int &q1, int &q2, int &q3) {
         if(gate == "reset") {
             continue;
         }
-        q1 = getQubit(line_stream);
-        used[q1] = true;
+        q.push_back(getQubit(line_stream));
+
+        //used[q1] = true;
         char c;
         line_stream >> c;
-        if(c == ',') {
-            q2 = getQubit(line_stream);
-            used[q2] = true;
-        } else if(c == ';') {
-            q2 = -1;
-        } else {
-            throw ParserException("except ',' or ';'");
+        while (c == ',')
+        {
+            q.push_back(getQubit(line_stream));
+            do {
+                c = line_stream.get();
+            } while(isblank(c));
         }
-        line_stream >> c;
-        if (c == ',') {
-            q3 = getQubit(line_stream);
-            used[q3] = true;
-        }
-        else if (c == ';') {
-            q3 = -1;
-        }
-        else {
-            throw ParserException("except ',' or ';'");
-        }
+        
         auto &gate_str = *(gate_set.insert(gate).first);
 #ifdef TESTING
         gate_count++;

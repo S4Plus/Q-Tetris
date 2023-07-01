@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLIB.a CMakeFiles/LIB.dir/MCTS.cpp.o CMakeFiles/LIB.dir/QASMParser.cpp.o CMakeFiles/LIB.dir/base.cpp.o CMakeFiles/LIB.dir/state.cpp.o
+/usr/bin/ranlib libLIB.a

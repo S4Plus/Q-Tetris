@@ -1,3 +1,7 @@
+/*
+this algorithm checks whether the physical circuit is equivalent with the logical circuit
+and whether the scheduling sequence satisfies with PEC
+*/
 #include<include/state.h>
 #include<iostream>
 #include<stdio.h>
@@ -15,8 +19,8 @@ QCircuit qasmToBenchmark(string path) {
 	QCircuit qc(n * m);
 	int totaltime = 0;
 	while (true) {
-		int q[3];
-		const char* gate = parser.getInstruction(q[0], q[1], q[2]);
+		vector<int> q;
+		const char* gate = parser.getInstruction(q);
 		if (gate == NULL)
 			break;
 		//cout<<gate<<" " << q1 << " " << q2 << " " << q3 << endl;
