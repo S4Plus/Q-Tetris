@@ -229,8 +229,8 @@ int main(int argc, char** argv) {
 		State::setAdj(n, m, maxr);
 		int qnum = qc.QbtNum();
 		int gnum = qc.sequence.size();
-		//map<int, int> pi = IM(im + "/" + fName);
-		map<int, int> pi = randMap(qnum, n * m);
+		map<int, int> pi = IM(im + "/" + fName);
+		//map<int, int> pi = randMap(qnum, n * m);
 		
 		struct timeval t1,t2;
 		double timeuse1, timeuse2;

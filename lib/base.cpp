@@ -113,12 +113,14 @@ void QCircuit::pc2lc(map<int, int> p2l) {
 			QGate lg = g;
 			for (int& q : lg.q) {
 				q = p2l[q];
-				//cout << q << " ";
-			}//cout << "\n";
+			}
 			ns.push_back(lg);
 		}
 	}
 	sequence = ns;
+	for (auto &v : lines){
+		v.clear();
+	}
 	init();
 }
 
@@ -129,7 +131,7 @@ bool QCircuit::operator==(const QCircuit& qc) const {
 	}
 	for (int i = 0;i < lines.size();i++) {
 		if (lines[i].size() != qc.lines[i].size()) {
-			cout << "lines[" << i << "] size not equal\n";
+			cout << "lines[" << i << "] size not equal\n" << lines[i].size() << " " << qc.lines[i].size() << "\n";
 			return false;
 		}
 		for (int j = 0;j < lines[i].size();j++) {
