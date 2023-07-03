@@ -1,0 +1,7 @@
+/home/lys/tetris/Q-Tetris/build/CMakeFiles/rebuild_cache.dir
+/home/lys/tetris/Q-Tetris/build/CMakeFiles/edit_cache.dir
+/home/lys/tetris/Q-Tetris/build/CMakeFiles/verify.dir
+/home/lys/tetris/Q-Tetris/build/CMakeFiles/tetris.dir
+/home/lys/tetris/Q-Tetris/build/lib/CMakeFiles/rebuild_cache.dir
+/home/lys/tetris/Q-Tetris/build/lib/CMakeFiles/LIB.dir
+/home/lys/tetris/Q-Tetris/build/lib/CMakeFiles/edit_cache.dir

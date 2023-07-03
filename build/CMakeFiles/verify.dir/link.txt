@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/verify.dir/exe/verify.cpp.o -o verify  lib/libLIB.a 
