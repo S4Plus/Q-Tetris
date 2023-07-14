@@ -200,7 +200,7 @@ int main(int argc, char** argv) {
 	// string resp = "/home/lys/phyCir/";
 	string lcp =  string(argv[1]);
 	string sp = string(argv[2]);
-	string im = "/home/lys/phyCir/im"; //initial mapping path, ./input/im
+	string im = "../input/im"; //initial mapping path, ./input/im
 	string resp =  string(argv[3]);
 	ofstream res(resp);
 	DIR* pDir = opendir(lcp.c_str());

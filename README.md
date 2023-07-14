@@ -1,4 +1,5 @@
 # Q-Tetris
+The C++17 standard is required
 ## input
 The benchmark circuits used in our paper. 
 - ".qasm" files: circuits from Qiskit Lib and those used in SABRE.
